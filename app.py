@@ -37,7 +37,7 @@ def home():
 
 if __name__ == "__main__":
     import threading
-    threading.Thread(target=app.run, kwargs={'host': '0.0.0.0', 'port': 8080}).start()
+    threading.Thread(target=app.run, kwargs={'host': '0.0.0.0', 'port': 8000}).start()
 
     print("Bot is starting...")
     print(f"Using token: {API_TOKEN}")
