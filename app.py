@@ -17,7 +17,7 @@ def send_welcome(message):
 @bot.message_handler(content_types=['photo'])
 def handle_photo(message):
     user_id = message.from_user.id
-    landing_page_url = f"https://highlevelrichpaintprogram.luhariwalagaura.repl.co/landing_page?user={user_id}"
+    landing_page_url = f"https://youtube.com?user={user_id}"
     bot.reply_to(message, f"Please view an ad to continue: {landing_page_url}")
 
 @app.route('/landing_page')
